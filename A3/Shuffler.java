@@ -1,3 +1,5 @@
+package A3;
+
 /**
  * This class provides a convenient way to test shuffling methods.
  */
@@ -61,7 +63,7 @@ public class Shuffler {
             shuffled[j] = values[k];
             k += 2;
         }
-        values = shuffled;
+        values = shuffled.clone();
     }
 
     /**
@@ -78,6 +80,7 @@ public class Shuffler {
     public static void selectionShuffle(int[] values) {
         for (int k=51; k>=0; k--) {
             int r = (int)(k*Math.random());
+            
         }
     }
 }
