@@ -184,7 +184,7 @@ public class ElevensBoard {
 	 *         false otherwise.
 	 */
 	public boolean isLegal(List<Integer> selectedCards) {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 9 *** */
+		return containsPairSum11() || containsJQK();
 	}
 
 	/**
